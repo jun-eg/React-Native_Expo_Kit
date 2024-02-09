@@ -1,6 +1,8 @@
-# attendance_recordeer
+# React-Native_Expo_Kit
 
 docker-compose build
 docker-compose up
 
-npx expo start
+yarn create expo-app myapp --template
+
+yarn expo start --tunnel

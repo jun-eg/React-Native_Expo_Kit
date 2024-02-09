@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    container_name: test
+    user: "1000:1000"
+    tty: true
+    volumes:
+      - ./test_app:/test_app
+    working_dir: /test_app

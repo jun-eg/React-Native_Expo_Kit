@@ -1,6 +1,8 @@
 # React-Native_Expo_Kit
 
-yarn create expo-app myapp --template
+cd myapp
+
+npm i
 
 docker-compose build
 
